@@ -1,0 +1,2 @@
+# SexyRedux
+Reducer slice
