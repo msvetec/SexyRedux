@@ -9,11 +9,11 @@ export default function ProjectDetails({
     projectId
 } :Props) {
     const dispatch = useAppDispatch();
-    const project = useAppSelector(state => projectSelectors.selectById(state, projectId));
+    const project = useAppSelector(state => projectSelectors.selectById(state, projectId)); //FETCH FROM REDUX STATE
     console.log("test details");
 
     useEffect(() => {
-        if(!project) dispatch(fetchProjectAsync(projectId));
+        if(!project) dispatch(fetchProjectAsync(projectId)); //IF PROJECT DONT EXISTS IN REDUX STATE CALL API!!!!
     }, [dispatch,project])
 
     return (

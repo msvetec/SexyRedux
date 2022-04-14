@@ -26,6 +26,12 @@ namespace API.Controllers
             List<Project> projects = _context.Projects.ToList();
             return Ok(projects);
         }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Project>> GetProjectById(int id)
+        {
+            var project = _context.Projects.Where(x => x.Id == id).FirstOrDefault();
+            return Ok(project);
+        }
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(long id)
         {

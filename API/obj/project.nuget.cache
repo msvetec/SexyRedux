@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qkG2HZ4ORT4BiyM1RKYdyvYheltgOEXyYqxfHwjS2f5dBosiKavJxh/rKj0dK35NaoaJm5kAMmqLJc48v4Plrg==",
+  "dgSpecHash": "7EaS3FknoKwBsluP/Md8mwH5YgBAnyqQh4UnrGyEkUcXDbkUOd/4Z2igSW1/42/Af0JOctejauj1+xIuAM8jOg==",
   "success": true,
-  "projectFilePath": "D:\\Projekti\\SexyRedux\\api\\API.csproj",
+  "projectFilePath": "D:\\SexyRedux\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mario.svetec\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mario.svetec\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.3\\microsoft.data.sqlite.core.6.0.3.nupkg.sha512",

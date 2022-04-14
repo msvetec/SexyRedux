@@ -5884,11 +5884,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projekti\\SexyRedux\\api\\API.csproj",
+      "projectUniqueName": "D:\\SexyRedux\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Projekti\\SexyRedux\\api\\API.csproj",
+      "projectPath": "D:\\SexyRedux\\API\\API.csproj",
       "packagesPath": "C:\\Users\\mario.svetec\\.nuget\\packages\\",
-      "outputPath": "D:\\Projekti\\SexyRedux\\api\\obj\\",
+      "outputPath": "D:\\SexyRedux\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
