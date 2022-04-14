@@ -15,6 +15,7 @@ const Project = {
     list: () => requests.get<Projects[]>('https://localhost:7047/api/projects'),
     delete: (projectId:number) => requests.del<void>(`https://localhost:7047/api/projects/${projectId}`),
     addProject:(project: Projects) => requests.post<Projects>(`https://localhost:7047/api/projects`,project),
+    projectById: (projectId: number) => requests.get<Projects>(`https://localhost:7047/api/projects/${projectId}`),
 
 };
 

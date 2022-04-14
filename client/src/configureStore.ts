@@ -2,11 +2,12 @@ import { configureStore } from "@reduxjs/toolkit";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import { counterSlice } from "./counterSlice";
 import { projectSlice } from "./projects/projectSlice";
+import { projectSliceSexy } from "./projects/projectSliceSexy";
 
 export const store = configureStore({
     reducer: {
         counter: counterSlice.reducer,
-        project: projectSlice.reducer,
+        projectSexy: projectSliceSexy.reducer
     }
 })
 
